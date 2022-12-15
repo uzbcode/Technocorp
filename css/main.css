@@ -1,0 +1,99 @@
+/* exo-2-regular - latin */
+@font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/exo-2-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v20-latin-regular.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-600 - latin */
+  @font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/exo-2-v20-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v20-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v20-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v20-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v20-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v20-latin-600.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-700 - latin */
+  @font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/exo-2-v20-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v20-latin-700.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+
+/* ROOT */
+:root{
+    --header-bg-color: linear-gradient(38.36deg, #0A7F2E 0%, #000000 181.17%);
+    --main-bg-color: #0A7F2E;
+    --main-text-color: #201F1E;
+    --main-color: #fff;
+}
+
+.html{
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
